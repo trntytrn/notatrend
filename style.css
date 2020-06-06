@@ -1,0 +1,354 @@
+/* color codes
+light green: #D8E2DC
+green-ish gray: #848C8E
+medium green: #8DAA91
+dark green: #435058
+ */
+
+body {
+  background-color: #D8E2DC;
+}
+h1 {
+  font-family: Arial;
+  font-style: italic;
+  color: #435058;
+  text-align: center;
+  padding: 30px;
+  font-size: 50px;
+}
+h2 {
+  font-family: Arial;
+  font-style: italic;
+  color: #435058;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+}
+h3 {
+  font-family: Arial;
+  font-style: italic;
+  color: #435058;
+  text-align: center;
+  font-size: 30px;
+}
+h4 {
+  font-family: Arial;
+  font-style: italic;
+  color: #435058;
+  text-align: center;
+  font-size: 25px;
+}
+p {
+  font-family: Arial;
+  color: #435058;
+  text-align: center;
+  font-size: 20px;
+  padding: 20px;
+  margin: 20px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #D8E2DC;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #435058;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #435058;
+  color: white;
+  font-family: Arial;
+}
+a:link {
+  color: #848C8E;
+  text-decoration: none;
+  text-align: center;
+}
+a:visited {
+  color: #848C8E;
+  text-decoration: none;
+    text-align: center;
+}
+a:hover {
+  color: #8DAA91;
+  text-decoration: none;
+    text-align: center;
+}
+a:active {
+  color: #8DAA91;
+  text-decoration: none;
+  text-align: center;
+}
+.protestButton:link {
+  background-color: #D8E2DC;
+  color: #435058;
+  font-family: Arial;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 200px;
+   margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #435058;
+}
+.protestButton:visited {
+  background-color: #D8E2DC;
+  color: #435058;
+  font-family: Arial;
+  padding: 13px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border-style: none;
+}
+
+.protestButton:hover {
+  background-color: #435058;
+  color: white;
+  font-family: Arial;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+}
+.protestButton:active {
+  background-color: #848C8E;
+  color: white;
+  font-family: Arial;
+  padding: 13px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+}
+
+.buttonNav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.protestButton2:link {
+  background-color: #D8E2DC;
+  color: #435058;
+  font-family: Arial;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+   margin: auto;
+  text-align: center;
+  text-decoration: none;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #435058;
+}
+.protestButton2:visited {
+  background-color: #D8E2DC;
+  color: #435058;
+  font-family: Arial;
+  padding: 13px;
+  width: 500px;
+   margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  border-style: none;
+}
+
+.protestButton2:hover {
+  background-color: #435058;
+  color: white;
+  font-family: Arial;
+  padding: 13px;
+  width: 500px;
+   margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+}
+.protestButton2:active {
+  background-color: #848C8E;
+  color: white;
+  font-family: Arial;
+  padding: 13px;
+  width: 500px;
+   margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  text-decoration: none;
+  border-style: none;
+}
+
+.protestLinks {
+  display: flex;
+  justify-content: space-between;
+  align-self: auto;
+  align-content: space-between;
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 30px;
+}
+
+{box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: #435058;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: #435058;
+}
+
+/* Caption text */
+.text {
+  color: #435058;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+  font-family: Arial;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #435058;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  font-family: Arial;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #848C8E;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #435058;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+.accordion {
+background-color: #eee;
+color: #444;
+cursor: pointer;
+padding: 18px;
+width: 100%;
+text-align: left;
+border: none;
+outline: none;
+transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+padding: 0 18px;
+background-color: white;
+display: none;
+overflow: hidden;
+}
+
+.accordion:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: #777;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
