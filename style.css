@@ -30,7 +30,7 @@ h3 {
   color: #435058;
   text-align: center;
   font-size: 30px;
-  margin: 10%;
+  margin: 5%;
 }
 h4 {
   font-family: Arial;
@@ -38,6 +38,7 @@ h4 {
   color: #435058;
   text-align: center;
   font-size: 25px;
+  margin: 5%;
 }
 p {
   font-family: Arial;
@@ -382,50 +383,76 @@ overflow: hidden;
   }
 }
 
-/* The dropdown container */
-.dropdown {
-  float: left;
-  overflow: hidden;
+
+/* Style the list */
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  background-color: #D8E2DC;
+  font-family: Arial;
+  font-style: italic;
+  color: #435058;
 }
 
-/* Dropdown button */
-.dropdown .dropbtn {
+/* Display list items side by side */
+ul.breadcrumb li {
+  display: inline;
   font-size: 16px;
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit; /* Important for vertical align on mobile phones */
-  margin: 0; /* Important for vertical align on mobile phones */
 }
 
-/* Dropdown content (hidden by default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: #435058;
+  content: "/\00a0";
 }
 
-/* Links inside the dropdown */
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+  color: #848C8E;
   text-decoration: none;
-  display: block;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+  color: #8DAA91;
+  text-decoration: underline;
+}
+
+/* Style the button that is used to open and close the collapsible content */
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
   text-align: left;
+  outline: none;
+  font-size: 15px;
 }
 
-/* Add a grey background color to dropdown links on hover */
-.dropdown-content a:hover {
-  background-color: #ddd;
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .collapsible:hover {
+  background-color: #ccc;
 }
 
-/* Show the dropdown menu on hover */
-.dropdown:hover .dropdown-content {
-  display: block;
+/* Style the collapsible content. Note: hidden by default */
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+.collapsible:after {
+  content: '\02795'; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
