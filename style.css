@@ -418,3 +418,15 @@ ul.breadcrumb li a:hover {
   color: #8DAA91;
   text-decoration: underline;
 }
+
+.footer {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: #D8E2DC;
+  text-align: center;
+}
+
+.footer p {
+  color: #D8E2DC;
+}
