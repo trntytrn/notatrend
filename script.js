@@ -54,5 +54,4 @@ function myFunction() {
   if (x.className === "navigation") {
     x.className += "responsive";
   } else {
-    x.className = "navigation";
-  }
+    x.className = "navigation"; }
