@@ -1,3 +1,4 @@
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -52,6 +53,8 @@ for (i = 0; i < acc.length; i++) {
 function myFunction() {
   var x = document.getElementById("myNav");
   if (x.className === "navigation") {
-    x.className += "responsive";
+    x.className += " responsive";
   } else {
-    x.className = "navigation"; }
+    x.className = "navigation";
+  }
+}
