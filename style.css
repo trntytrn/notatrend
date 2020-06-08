@@ -7,46 +7,62 @@ dark green: #435058
 
 body {
   background-color: #D8E2DC;
+
 }
 h1 {
   font-family: Arial;
   font-style: italic;
   color: #435058;
   text-align: center;
-  padding: 15px;
+
   font-size: 50px;
-  margin: 2%;
+  margin: 5%;
 }
 h2 {
   font-family: Arial;
   font-style: italic;
   color: #435058;
   text-align: center;
-  font-size: 40px;
-  padding: 10px;
+  font-size: 45px;
+    margin: 5%;
 }
 h3 {
   font-family: Arial;
   color: #435058;
   text-align: center;
-  font-size: 30px;
-  margin: 5%;
+  font-size: 35px;
+    margin: 5%;
 }
 h4 {
   font-family: Arial;
   font-style: italic;
   color: #435058;
   text-align: center;
-  font-size: 25px;
-  margin: 5%;
+  font-size: 30px;
+    margin: 5%;
 }
+h5 {
+  font-family: Arial;
+  color: #435058;
+  text-align: center;
+  font-size: 25px;
+    margin: 5%;
+}
+h6 {
+  font-family: Arial;
+  color: #435058;
+  text-align: center;
+  font-size: 20px;
+    margin: 5%;
+}
+
 p {
   font-family: Arial;
   color: #435058;
   text-align: center;
   font-size: 20px;
   padding: 10px;
-  margin: 20px;
+  margin: 5%;
 }
 .navigation {
   overflow: hidden;
@@ -429,4 +445,22 @@ ul.breadcrumb li a:hover {
 
 .footer p {
   color: #D8E2DC;
+}
+
+.template p {
+  font-family: Arial;
+  font-style: normal;
+  color: #435058;
+  text-align: left;
+margin-left: 5%;
+margin-right: 5%;
+
+}
+.emails h6 {
+padding: 3px;
+margin: 1%;
+}
+.emails p {
+padding: 3px;
+margin: 1%;
 }
