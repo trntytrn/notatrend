@@ -7,6 +7,8 @@ dark green: #435058
 
 body {
   background-color: #D8E2DC;
+  margin: 0px;
+            padding: 0px;
 
 }
 h1 {
@@ -66,7 +68,9 @@ p {
 }
 .navigation {
   overflow: hidden;
-    background-color: #D8E2DC;
+    background-color: #435058;
+    margin: 0;
+    display: block;
 }
   .navigation a {
   float: left;
@@ -86,7 +90,7 @@ font-family: Arial;
 /* Change the link color to #111 (black) on hover */
 .navigation a:hover, .dropdown:hover .dropbtn {
   background-color: #435058;
-  color: white;
+  color: #D8E2DC;
 
 }
 
