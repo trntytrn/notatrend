@@ -532,3 +532,24 @@ hr {
   float: center;
   text-align: center;
 }
+
+.outsideLinks a {
+  font-size: 25px;
+font-family: 'Playfair Display', serif;
+margin: 2%;
+}
+.outsideLinks p {
+  margin: 5%;
+}
+/* #more {
+  display: none;
+}
+
+#readMoreBtn {
+  background-color: #D8E2DC;
+  color: #435058;
+  font-family: Helvetica;
+  border-style: solid;
+  border-radius: 2px;
+  border-color: #435058;
+} */
