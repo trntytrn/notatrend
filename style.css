@@ -553,3 +553,11 @@ margin: 2%;
   border-radius: 2px;
   border-color: #435058;
 } */
+
+input {
+  width: 50%;
+  margin: 2%;
+  height: 75px;
+  border: 2px solid #435058;
+  overflow: auto;
+}
